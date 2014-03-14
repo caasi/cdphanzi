@@ -1,0 +1,24 @@
+{
+  "name": "cdphanzi-util",
+  "version": "0.0.1",
+  "homepage": "https://github.com/caasi/cdphanzi",
+  "authors": [
+    "caasi Huang <caasi.igd@gmail.com>"
+  ],
+  "description": "Tools for cdphanzi database.",
+  "main": "main.js",
+  "keywords": [
+    "hanzi"
+  ],
+  "license": "GPL3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "opentype.js": "~0.2.0"
+  }
+}
