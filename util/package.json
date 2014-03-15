@@ -1,0 +1,26 @@
+{
+  "name": "cdphanzi-util",
+  "version": "0.0.1",
+  "description": "An unoffical mirror of the source code of Chinese Character Component Searching System of Academia Sinica.",
+  "main": "main.js",
+  "scripts": {
+    "start": "gulp --require LiveScript",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hanzi"
+  ],
+  "author": "caasi Huang",
+  "license": "GPL3",
+  "devDependencies": {
+    "LiveScript": "^1.2.0",
+    "gulp": "^3.5.5",
+    "gulp-util": "^2.2.14",
+    "gulp-concat": "^2.1.7",
+    "gulp-livescript": "^0.2.0",
+    "gulp-jade": "^0.4.2",
+    "gulp-livereload": "^1.2.0",
+    "node-static": "^0.7.3",
+    "tiny-lr": "0.0.5"
+  }
+}

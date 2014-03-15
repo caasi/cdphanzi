@@ -2,7 +2,13 @@ doctype html
 html
   head
     title cdphanzi custom ideographic description characters
+    style.
+      body {
+        margin: 0;
+        padding: 0;
+      }
   body
-    canvas#canvas(width='600' height='60')
+    canvas#canvas
+    script(src='./bower_components/jquery/dist/jquery.js')
     script(src='./bower_components/opentype.js/opentype.js')
     script(src='./main.js')
